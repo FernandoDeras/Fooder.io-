@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading h1 {
+    color: #030e12;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+
+.navbar {
+    background-color: #162328;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 05);
+}
+
+a {
+    font-size: 40px !important;
+    color: white !important;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-bar {
+    margin: 1rem 0;
+    width: 500px;
+    height: 40px;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 2rem;
+}
+
+.card {
+
+    /*   background-color: #4cb857 !important; */
+    border-radius: 1rem 1rem 0 0 !important;
+
+
+}
+
+.card img {
+
+    border-radius: 1rem 1rem 0 0;
+    border: solid;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+
+}
+
+.card:hover {
+
+
+    animation: wobble;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.numBox:hover {
+    margin: 0 0.5rem;
+
+    animation: rotateIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+
+}
+
+.primary {
+    background-color: aquamarine !important;
+    border-color: aquamarine !important;
+    width: 50%;
+    text-align: center;
+
+}
+
+.content .inner-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 05);
+}
+
+.recipe-details {
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients,
+.instructions {
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.ingredients h4 {
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.video {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.indexContainer {
+    display: flex;
+    margin: 2.5rem 0;
+}
+
+#foto {
+    width: 100%;
+    height: 500px;
+}
+
+.numBox {
+    width: 50px;
+    height: 40px;
+    background-color: #343c3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+
+#footer {
+    background-color: #162328;
+    color: white;
+}
+
+.button {
+    background-color: #162328 !important;
+    color: white !important;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 7px 5px rgba(0, 0, 0, 05);
+}
+
+.texto-encima {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background-color: #162328 !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.centrado2 {
+    position: absolute;
+    top: 85%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    background-color: #3FC060 !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col {
+    margin-left: 20px;
+    margin-right: 25px;
+    border-style: dashed;
+
+}
+
+.NombresIngredientes {
+    text-align: center;
+}
+
+.fa {
+    font-size: 40px !important;
+}
+
+.strtitle {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.li {
+    font-size: 200px;
+}
+
+
+.container {
+    border-radius: 2px;
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-react {
+    padding: 30px 20px;
+}
+
+.form-control {
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 200% !important;
+    right: 50%;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font: weight 200px
+}
+
+.form-control input {
+    border: none;
+    background-color: #f0f0f0;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}
+
+.form-control textarea {
+    border: none;
+    background-color: #f0f0f0;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}
+
+.form-control,
+input:focus {
+    outline: none;
+}
+
+.form-react button {
+    background: #3FC060;
+    border: 1px solid #3FC060;
+    border-radius: 2px;
+    color: #f6f6e9;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.form-react button:hover {
+    background-color: #162328;
+    border-color: #162328;
+}
+
+.fail {
+    color: #f2317f;
+}
+
+.formulario {}
+
+.contenido {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleform {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#return{
+    background-color: transparent;
+    border-color: transparent;
+}
